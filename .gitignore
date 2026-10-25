@@ -1,4 +1,12 @@
-.venv
-.git
-translated.docx
-input.docx.git/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.uv-cache/
+.env
+dist/
+*.egg-info/
+input/*
+!input/.gitkeep
+output/*
+!output/.gitkeep

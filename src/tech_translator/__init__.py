@@ -1,0 +1,1 @@
+"""Technical document translator."""

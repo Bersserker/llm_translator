@@ -1,0 +1,17 @@
+llm:
+  provider: openai_compatible
+  base_url: http://localhost:1234/v1
+  model: local-model
+  temperature: 0.0
+  max_tokens: 2048
+  timeout: 120
+  max_retries: 2
+  structured_output: auto
+translation:
+  source_language: en
+  target_language: ru
+  chunk_size: 1500
+  context_window: 8192
+  glossary_path: ../glossaries/en_ru.yaml
+logging:
+  level: INFO
