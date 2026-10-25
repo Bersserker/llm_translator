@@ -4,6 +4,9 @@ Python 3.12+ CLI for translating TXT, Markdown and DOCX through a local
 OpenAI-compatible API. Uses LangChain prompt templates and LCEL chains.
 There is no cloud endpoint configured by default.
 
+See [ARCHITECTURE.md](ARCHITECTURE.md) for module responsibilities, translation
+and API diagnostic flows, configuration, document preservation, and testing.
+
 ## Setup and API diagnostics
 
 Install [uv](https://docs.astral.sh/uv/) and start your local API server, then:
